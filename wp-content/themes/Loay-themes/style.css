@@ -1,0 +1,39 @@
+/*
+Theme Name: My Simple Theme
+Theme URI: none
+Author: Loay Hajjo
+Author URI: none
+Description: A very simple WordPress theme.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: my-simple-theme
+*/
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header,
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
